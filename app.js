@@ -30,7 +30,7 @@ function CoffeeWebsite() {
           <div className="flex items-center justify-center gap-3 mb-4">
             <Coffee size={40} />
             <h1 className="text-3xl font-bold">馬來西亞精品咖啡</h1>
-          </div>
+          </div>bg-gradient
           <p className="text-center text-amber-100">888 & MEVSO 品牌台灣總代理</p>
           
           {/* Navigation */}
@@ -264,11 +264,11 @@ function CoffeeWebsite() {
                     key={product.id}
                     className="bg-white rounded-xl shadow-lg overflow-hidden"
                   >
-                    <div className="bg-gradient-to-br from-amber-600 to-orange-600 p-2">
+                    <div className="relative h-64 overflow-hidden">
                       <img 
                         src={product.image} 
                         alt={product.name}
-                        className="w-full h-64 object-cover rounded-t-lg"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     
