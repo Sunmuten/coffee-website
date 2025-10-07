@@ -36,6 +36,12 @@ header {
     justify-content: center;
     gap: 15px;
     margin-bottom: 10px;
+    line-height: 1;
+}
+
+.header-title h1 {
+    margin: 0;
+    line-height: 1;
 }
 
 .header-icon {
