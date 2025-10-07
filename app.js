@@ -80,11 +80,11 @@ function CoffeeWebsite() {
                 key={product.id}
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
               >
-                <div className="bg-gradient-to-br from-amber-600 to-orange-600 p-2">
+                <div className="relative h-64 overflow-hidden">
                   <img 
                     src={product.image} 
                     alt={product.name}
-                    className="w-full h-64 object-cover rounded-t-lg"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 
