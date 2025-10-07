@@ -32,25 +32,22 @@ header {
 
 .header-title {
     display: flex;
-    align-items: center;
+    align-items: flex-end;  /* Bottom alignment */
     justify-content: center;
     gap: 15px;
     margin-bottom: 10px;
-    line-height: 1;
-}
-
-.header-title h1 {
-    margin: 0;
-    line-height: 1;
 }
 
 .header-icon {
     font-size: 2.5em;
+    line-height: 1;
 }
 
 .header-title h1 {
     font-size: 2em;
     font-weight: bold;
+    margin: 0;
+    line-height: 1;
 }
 
 .header-subtitle {
