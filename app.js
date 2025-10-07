@@ -18,7 +18,7 @@ function CoffeeWebsite() {
       name: '榴槤風味三合一即溶咖啡',
       flavor: '榴槤',
       description: '獨特東南亞風情，榴槤香氣與咖啡的創新搭配',
-      image: './images/888-durian.jpg' // Replace with your image
+      image: './images/888-durian-1.jpg' // Replace with your image
     }
   ];
 
