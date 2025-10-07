@@ -30,7 +30,7 @@ function CoffeeWebsite() {
           <div className="flex items-center justify-center gap-3 mb-4">
             <Coffee size={40} />
             <h1 className="text-3xl font-bold">馬來西亞精品咖啡</h1>
-          </div>bg-gradient
+          </div>
           <p className="text-center text-amber-100">888 & MEVSO 品牌台灣總代理</p>
           
           {/* Navigation */}
