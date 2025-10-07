@@ -3,27 +3,281 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>測試頁面</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background-color: #f0f0f0;
-        }
-        h1 {
-            color: #78350f;
-            font-size: 3em;
-        }
-        p {
-            font-size: 1.5em;
-            color: #333;
-        }
-    </style>
+    <title>馬來西亞精品咖啡 | 888 & MEVSO 台灣總代理</title>
+    <meta name="description" content="888 & MEVSO 馬來西亞咖啡品牌台灣總代理，提供榛果與榴槤風味三合一即溶咖啡">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>✅ 成功！網站運作正常</h1>
-    <p>如果你看到這個，代表 GitHub Pages 正常運作</p>
-    <p>現在可以換回完整的咖啡網站了！</p>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="header-title">
+                    <span class="header-icon">☕</span>
+                    <h1>馬來西亞精品咖啡</h1>
+                </div>
+                <p class="header-subtitle">888 & MEVSO 品牌台灣總代理</p>
+                
+                <!-- Navigation -->
+                <nav>
+                    <button class="nav-btn active" data-section="b2c">一般消費者</button>
+                    <button class="nav-btn" data-section="b2b">企業合作</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- B2C Section -->
+    <div id="b2c-section" class="section-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h2 class="section-title">品味東南亞咖啡文化</h2>
+                <p class="section-description">
+                    精選馬來西亞優質咖啡品牌，為您帶來獨特的三合一即溶咖啡體驗
+                </p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products">
+            <div class="container">
+                <h3 class="section-title">
+                    <span class="title-icon">📦</span>
+                    我們的產品
+                </h3>
+                
+                <div class="products-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card">
+                        <img src="./images/888-hazelnut.jpg" alt="MEVSO 榛果風味三合一即溶咖啡" class="product-image">
+                        <div class="product-info">
+                            <span class="product-brand">MEVSO</span>
+                            <h4 class="product-name">榛果風味三合一即溶咖啡</h4>
+                            <p class="product-description">
+                                來自馬來西亞的經典風味，香濃榛果與咖啡的完美結合
+                            </p>
+                            <span class="product-flavor">榛果風味</span>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="product-card">
+                        <img src="./images/888-durian-1.jpg" alt="888 榴槤風味三合一即溶咖啡" class="product-image">
+                        <div class="product-info">
+                            <span class="product-brand">888</span>
+                            <h4 class="product-name">榴槤風味三合一即溶咖啡</h4>
+                            <p class="product-description">
+                                獨特東南亞風情，榴槤香氣與咖啡的創新搭配
+                            </p>
+                            <span class="product-flavor">榴槤風味</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Purchase Section -->
+        <section class="purchase">
+            <div class="container">
+                <div class="icon-cart">🛒</div>
+                <h3 class="section-title">立即選購</h3>
+                <p class="section-description">
+                    我們的產品現已在各大電商平台上架
+                </p>
+                
+                <a href="https://www.momoshop.com.tw" target="_blank" class="purchase-button">
+                    momo購物網
+                </a>
+                
+                <p class="platform-note">更多銷售平台即將推出</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <h3 class="section-title">關於我們</h3>
+                <div class="about-box">
+                    <p>
+                        我們專注於引進優質的馬來西亞咖啡品牌，為台灣消費者帶來道地的東南亞咖啡風味。
+                    </p>
+                    <p>
+                        目前代理的品牌包括 <strong>888</strong> 及 <strong>MEVSO</strong>，
+                        推出榛果和榴槤兩種獨特風味的三合一即溶咖啡。
+                    </p>
+                    <p>
+                        無論是喜愛經典榛果香氣，還是想嘗試創新的榴槤風味，我們都能滿足您的味蕾！
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- B2B Section -->
+    <div id="b2b-section" class="section-content hidden">
+        <!-- B2B Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="icon-large">🏢</div>
+                <h2 class="section-title">企業合作方案</h2>
+                <p class="section-description">
+                    誠摯邀請企業夥伴加入我們，共同開拓台灣優質咖啡市場
+                </p>
+            </div>
+        </section>
+
+        <!-- B2B Benefits -->
+        <section class="benefits">
+            <div class="container">
+                <h3 class="section-title">合作優勢</h3>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">📈</div>
+                        <h4 class="benefit-title">獨特市場定位</h4>
+                        <p class="benefit-text">
+                            榛果與榴槤風味在台灣市場具有差異化優勢，吸引追求新奇體驗的消費者
+                        </p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">📦</div>
+                        <h4 class="benefit-title">彈性供貨方案</h4>
+                        <p class="benefit-text">
+                            提供批發優惠價格，支援小量起訂，適合各種規模的商業夥伴
+                        </p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">👥</div>
+                        <h4 class="benefit-title">行銷支援</h4>
+                        <p class="benefit-text">
+                            提供產品資料、行銷素材，協助合作夥伴快速推廣市場
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Target Partners -->
+        <section class="partners">
+            <div class="container">
+                <h3 class="section-title">適合合作對象</h3>
+                
+                <div class="partners-grid">
+                    <div class="partner-card">
+                        <h4 class="partner-title">☕ 咖啡廳 / 餐飲業</h4>
+                        <p class="partner-text">為您的客人提供獨特的咖啡選擇，提升店內產品差異化</p>
+                    </div>
+
+                    <div class="partner-card">
+                        <h4 class="partner-title">🏪 零售通路商</h4>
+                        <p class="partner-text">引進新興品牌，豐富商品組合，吸引追求新鮮感的消費者</p>
+                    </div>
+
+                    <div class="partner-card">
+                        <h4 class="partner-title">🏢 企業福委會</h4>
+                        <p class="partner-text">員工福利、節慶禮品的優質選擇，展現企業對員工的用心</p>
+                    </div>
+
+                    <div class="partner-card">
+                        <h4 class="partner-title">🛒 電商平台</h4>
+                        <p class="partner-text">擴充產品線，搭上東南亞風味熱潮，提升平台競爭力</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- B2B Products -->
+        <section class="products">
+            <div class="container">
+                <h3 class="section-title">供應產品</h3>
+                
+                <div class="products-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card">
+                        <img src="./images/888-hazelnut.jpg" alt="MEVSO 榛果風味三合一即溶咖啡" class="product-image">
+                        <div class="product-info">
+                            <span class="product-brand">MEVSO</span>
+                            <h4 class="product-name">榛果風味三合一即溶咖啡</h4>
+                            <p class="product-description">
+                                來自馬來西亞的經典風味，香濃榛果與咖啡的完美結合
+                            </p>
+                            <div class="product-specs">
+                                <p>
+                                    <strong>規格：</strong>三合一即溶咖啡<br>
+                                    <strong>包裝：</strong>支援客製化包裝服務
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="product-card">
+                        <img src="./images/888-durian-1.jpg" alt="888 榴槤風味三合一即溶咖啡" class="product-image">
+                        <div class="product-info">
+                            <span class="product-brand">888</span>
+                            <h4 class="product-name">榴槤風味三合一即溶咖啡</h4>
+                            <p class="product-description">
+                                獨特東南亞風情，榴槤香氣與咖啡的創新搭配
+                            </p>
+                            <div class="product-specs">
+                                <p>
+                                    <strong>規格：</strong>三合一即溶咖啡<br>
+                                    <strong>包裝：</strong>支援客製化包裝服務
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <h3 class="section-title">聯繫我們</h3>
+                
+                <div class="contact-box">
+                    <p class="contact-intro">
+                        歡迎企業夥伴與我們聯繫，我們將盡快為您安排專人服務
+                    </p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>電話洽詢</h4>
+                            <p>請來電洽詢批發合作事宜</p>
+                            <p class="contact-info">[您的聯絡電話]</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>電子郵件</h4>
+                            <p>來信說明您的需求，我們將儘速回覆</p>
+                            <p class="contact-info">[您的電子郵件]</p>
+                        </div>
+                    </div>
+
+                    <p class="contact-hours">
+                        營業時間：週一至週五 9:00-18:00
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 馬來西亞精品咖啡 | 台灣</p>
+            <p class="footer-subtitle">888 & MEVSO 品牌授權代理</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
