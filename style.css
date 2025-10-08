@@ -541,14 +541,67 @@ footer p:last-child {
     }
 }
 
-@media (max-width: 480px) {
+/* Responsive Design - REPLACE the entire section at the bottom of your CSS */
+@media (max-width: 768px) {
+    /* Header fixes for tablet and mobile - keep icon and text side by side */
     .header-title {
-        flex-direction: column;
+        align-items: flex-end;  /* Bottom alignment */
         gap: 10px;
+    }
+    
+    .header-icon {
+        font-size: 1.8em;  /* Smaller icon */
+    }
+    
+    .header-title h1 {
+        font-size: 1.5em;
+        line-height: 0.8;  /* Keep same as desktop for bottom alignment */
+    }
+
+    .section-title {
+        font-size: 2em;
+    }
+
+    .section-description {
+        font-size: 1.1em;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .partners-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-box {
+        padding: 30px 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Header fixes for small phones - keep side by side */
+    .header-icon {
+        font-size: 1.5em;  /* Even smaller icon for small phones */
     }
 
     .header-title h1 {
-        font-size: 1.3em;
+        font-size: 1.2em;  /* Smaller text */
+        line-height: 0.8;  /* Keep same as desktop for bottom alignment */
     }
 
     .section-title {
